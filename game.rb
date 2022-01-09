@@ -10,8 +10,8 @@ class Game
 
   def play_game
     while @playerOne.lives > 0 and @playerTwo.lives > 0 
-      numberOne = rand(1..6)
-      numberTwo = rand(1..6)
+      numberOne = rand(1..11)
+      numberTwo = rand(1..11)
       answer = numberOne + numberTwo
       puts "--------------- \n"
       
